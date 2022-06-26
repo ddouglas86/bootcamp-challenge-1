@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* set main body color */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* set header container and text styling */
 
 header {
     padding: 20px;
@@ -23,6 +27,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* set navigation bar styling and text in header container */
 
 header nav {
     padding-top: 15px;
@@ -41,14 +47,20 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* link stylings */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* setting paragraph text sizing */
+
 p {
     font-size: 16px;
 }
+
+/* primary background image styling */
 
 .hero {
     height: 800px;
@@ -58,6 +70,33 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* setting main body styling */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* container parameters and styling within the main body */
+
+main div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* image sizes within main body containers */
+
+main img  {
+    max-height: 200px;
+}
+
+/* placement of images within the main body */
 
 .float-left {
     float: left;
@@ -69,29 +108,14 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-main div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main img  {
-    max-height: 200px;
-}
+/* main section headers */
 
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* setting sidebar container parameters */
 
 aside {
     margin-right: 20px;
@@ -103,6 +127,8 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* stylings for content within sidebar */
 
 aside div {
     margin-bottom: 32px;
@@ -119,6 +145,8 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* stylings and container parameters for footer */
 
 footer {
     padding: 30px;
