@@ -26,4 +26,8 @@ THEN I find a concise, descriptive title
 
 * Open with VSCode
 * Click [here](https://ddouglas86.github.io/bootcamp-challenge-1/) to view the live webpage
-* View webpage screenshot ![Image](/assets/images/Horiseon-What-We-Do.png)
+---
+## Webpage screenshot
+![Image](/assets/images/Horiseon-What-We-Do.png)
+
+
